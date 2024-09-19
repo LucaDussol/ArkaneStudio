@@ -29,7 +29,7 @@ STYLE DU FOOTER
 footer{
   display: grid;
   background-color: #515457;
-  grid-template-columns: 250px 120px 300px;
+  grid-template-columns: 250px 120px 225px;
   align-items: start;
   justify-content: space-between;
 
