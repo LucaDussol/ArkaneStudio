@@ -1,10 +1,10 @@
- <footer>
+<footer>
         <div id="copyright">
             <img src="Logo.png" alt="Logo" width="100" height="50">
             <br>
-            &copy; 2024 Oscar Dufossez
+            &copy; 2024 Luca DUSSOL
         </div>
-
+    
         <div>
             <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.704892145824!2d4.812532076878692!3d45.73701277107958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea6f1e22512d%3A0xbeaaa0635d51afef!2sArkane%20Lyon!5e0!3m2!1sfr!2sfr!4v1726489247770!5m2!1sfr!2sfr" 
@@ -13,9 +13,10 @@
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
-
         <div>
-            RS
+            <a class="Reseau" href="https://www.facebook.com/ArkaneStudios/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" width="50px"></a>
+            <a class="Reseau" href="https://x.com/arkanestudios" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Twitter-new-logo.jpg" width="50px"></a>
+            <a class="Reseau" href="https://www.linkedin.com/company/28338/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="50px"></a>
         </div>
     </footer>
 
@@ -26,17 +27,23 @@
 STYLE DU FOOTER
 
 footer{
-    display: grid;
-    background-color: #515457;
-    grid-template-columns: 180px 120px 120px;
-    align-items: start;
-    justify-content: space-between;
+  display: grid;
+  background-color: #515457;
+  grid-template-columns: 250px 120px 300px;
+  align-items: start;
+  justify-content: space-between;
 
-    color: aliceblue;
-    margin-top: 10 px;
+  color: aliceblue;
+  margin-top: 30px;
+  
+  font-size: 20px;
 }
 
 
 footer>div{
-    padding-top: 10px;
+  padding-top: 10px;
+}
+
+.Reseau{
+  margin-left: 15px;
 }
