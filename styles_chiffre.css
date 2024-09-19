@@ -1,8 +1,39 @@
+
+header{
+  background-color: aliceblue;
+  padding:10px;
+}
+
+header div{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+header a{
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+
+#Navigation a:hover{
+  background-color: antiquewhite;
+}
+
+
+
+
+
+
+
 body{
+  margin: 0px; 
+}
+.Page{
   margin-left: 100px;
   font-size: 20px;
 }
- 
+
 .container {
   display: flex;
 
@@ -27,4 +58,31 @@ body{
 .item:hover{
   background-color: rgb(184, 184, 184);
   font-size: 20.5px;
+}
+
+
+
+
+
+
+footer{
+  display: grid;
+  background-color: #515457;
+  grid-template-columns: 250px 120px 300px;
+  align-items: start;
+  justify-content: space-between;
+
+  color: aliceblue;
+  margin-top: 30px;
+  
+  font-size: 20px;
+}
+
+
+footer>div{
+  padding-top: 10px;
+}
+
+.Reseau{
+  margin-left: 15px;
 }
