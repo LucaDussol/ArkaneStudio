@@ -15,9 +15,15 @@
 ----------------------------------------------
   STYLE
 
-  header{
+body{
+    margin: 0;
+}
+
+header{
     background-color: aliceblue;
     padding:10px;
+    position: fixed;
+    width: 100%;
 }
 
 header div{
@@ -27,9 +33,22 @@ header div{
 }
 
 header a{
+    font-size: 20px;
     color: black;
     outline: none;
     text-decoration: none;
+}
+
+#logo{
+    margin-bottom: 10px;
+}
+
+#Navigation>a{
+    height: 50px;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #Navigation a:hover{
@@ -37,6 +56,6 @@ header a{
 }
 
 #Pageactuelle{
-    font-size: large;
+    font-size: 25px;
     font-weight: bold;
 }
