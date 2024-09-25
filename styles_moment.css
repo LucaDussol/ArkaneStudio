@@ -28,6 +28,52 @@ header{
 
 /* Body */ 
 
+#Titre {
+    background-color: #868687;
+}
+
+#Titre h1 {
+    color: rgb(41, 43, 43);
+    text-align: center;
+    padding: 10px;
+    margin: 0;}
+#Titre h3 {
+    color: rgb(51, 53, 53);
+    text-align: center;
+    padding: 10px;
+    margin: 0;}
+
+#Contenu {
+    background-color: #bcbcc0;
+    width: 90vw;
+}
+
+#Article {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+.article { 
+    border-radius: 25px;
+    background-image: url(https://www.alwaysforkeyboard.com/wp-content/uploads/2023/12/marvels_blade_1.jpg) ;
+    background-size: cover;
+    width: 30%;
+    height: 25vh;
+    text-align: center;
+}
+.texte>h2 {
+    margin-top: 75px;
+   
+
+}
+.texte {
+    backdrop-filter: blur(10px);
+    background-color: rgba(123, 122, 122, 0.219);
+    color: white;
+}
+
+
+
 
 
 
