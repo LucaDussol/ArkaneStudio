@@ -1,0 +1,61 @@
+        <header id="Bandeau_haut">
+            <div id="logo">
+                <img src="Logo.png" alt="Logo" width="300" height="80"> 
+            </div>
+           
+            <div id="Navigation">
+                    <a id="Pageactuelle" href="#">Accueil</a>
+                    <a href="#">Présentation de l'entreprise</a>
+                    <a href="#">En ce moment</a>
+                    <a href="#">Economie</a>
+                    <a href="#">Chiffres</a>
+            </div>
+        </header>
+
+----------------------------------------------
+  STYLE
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: aliceblue;
+    padding:10px;
+    position: fixed;
+    width: 100%;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+header a{
+    font-size: 20px;
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
+
+#logo{
+    margin-bottom: 10px;
+}
+
+#Navigation>a{
+    height: 50px;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Navigation a:hover{
+    background-color: antiquewhite;
+}
+
+#Pageactuelle{
+    font-size: 25px;
+    font-weight: bold;
+}
