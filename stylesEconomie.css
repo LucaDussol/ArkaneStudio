@@ -81,6 +81,18 @@ footer>div{
   
 }
 
+.disclaimer{
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  background-color: red;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
   .div_container{
     display: flex;
     justify-content: space-between;
@@ -96,10 +108,10 @@ footer>div{
     display: flex;
     align-items: center;
     background-color: grey;
-    height: 200px;
+    height: 300px;
     border-radius: 50px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
 
   .texte1>span{
@@ -112,14 +124,30 @@ footer>div{
     align-items: center;
     display: flex;
     background-color: green;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
+    min-width: 250px;
     border-radius: 50px;
+  }
+
+  #g1{
+    margin-bottom: 50px;
+  }
+
+  #g2{
+    margin-left: 30px;
   }
 
   .graph>span{
     width: 100%;
     text-align: center;
+  }
+
+  .graph>img{
+    height:250px ;
+    border: solid;
+    border-radius: 50px;
+    width: 100%;
   }
 
   h1 {
@@ -141,10 +169,33 @@ footer>div{
     border-radius: 50px;
     height: 200px;
     width: 75%;
+    border-right: 5px;
+
   }
 
   .texte2>span{
     width: 100%;
     padding: 20px;
     text-align: center;
+  }
+
+  .texte3{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    border-radius: 50px;
+    height: 500px;
+    width: 100%;
+  }
+
+  .texte3>span{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    max-width: 230px;
+  }
+
+  .eltd{
+    margin-top: 50px;
+    width: 250px;
   }
