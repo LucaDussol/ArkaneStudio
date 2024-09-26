@@ -52,7 +52,8 @@ header a{
 }
 
 #Navigation a:hover{
-    background-color: antiquewhite;
+  color: blue;
+  font-size: 22px ;
 }
 
 #Pageactuelle{
