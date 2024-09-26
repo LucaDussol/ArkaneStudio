@@ -1,0 +1,150 @@
+html{
+    font-family: sans-serif;
+}
+
+section{
+    background-color: beige;
+}
+
+body{
+    margin: 0;
+}
+
+/*---- ZONE HAUTE DE LA PAGE ----*/
+header{
+    background-color: aliceblue;
+    padding:10px;
+    position: fixed;
+    width: 100%;
+
+    z-index: 10;
+    top: 0;
+    margin-bottom: 10px;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+header a{
+    font-size: 20px;
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
+
+
+#Navigation>a{
+    height: 50px;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Navigation a:hover{
+    color: blue;
+  font-size: 22px;
+}
+
+
+#Pageactuelle{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+
+#logo{
+    margin-bottom: 10px;
+}
+
+/*---- ZONE CENTRALE DE LA PAGE ----*/
+
+.Bandeau_acc{
+    margin-top: 170px;
+}
+
+.contenu{
+    width: 320px;
+    justify-content: space-around;
+}
+
+.image a{
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
+
+#pages div{
+    background-color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding:10px;
+
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+#pages{
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+}
+.titrePage{
+    font-size: large;
+    font-weight: bold;
+}
+
+.contenu:hover , .image:hover{
+    font-weight: bolder;
+}
+
+
+/*---- ZONE BASSE DE LA PAGE ----*/
+
+footer{
+    display: flex;
+    background-color: #515457;
+    grid-template-columns: 250px 120px 225px;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+    color: aliceblue;
+    margin-top: 30px;
+    
+    font-size: 20px;
+  }
+  
+  
+  footer>div{
+    padding-top: 10px;
+  }
+  
+  .Reseau{
+    margin-left: 15px;
+  }
+
+  @media (max-width: 650px){
+    footer{
+      iframe {
+        display: none;
+      }
+    }
+    
+  }
+
+
+
+
