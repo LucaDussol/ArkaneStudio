@@ -2,7 +2,7 @@
 
 ## Arkane Studio    
 
-Arkane Studio (https://login.github.io/ArkaneStudio/index.html)
+Arkane Studio (https://lucadussol.github.io/ArkaneStudio)
 
 ## Membres du groupe :
 
@@ -13,3 +13,6 @@ Etudiant 4 : DUMAIN Mathias (mathias.dumain@edu.univ-fcomte.fr)<br>
 Etudiant 5 : HETRU Owen (owen.hetru@edu.univ-fcomte.fr)<br>  
 
 # Présentation du projet
+
+Ce projet est un projet collaboratif de première année de BUT INFORMATIQUE. Nous devons présenter une entreprise
+et son environnement économique au travers d'un site web que nous aurons codé de bout en bout. 
