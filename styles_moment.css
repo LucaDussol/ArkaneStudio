@@ -51,15 +51,24 @@ header{
 #Article {
     display: flex;
     flex-direction: row;
-    justify-content: stretch;
+    justify-content: space-evenly;
 }
-.article { 
-    border-radius: 25px;
+
+#article1 {
     background-image: url(https://www.alwaysforkeyboard.com/wp-content/uploads/2023/12/marvels_blade_1.jpg) ;
     background-size: cover;
     width: 30%;
     height: 25vh;
     text-align: center;
+    border-radius: 15px;
+}
+#article2 {
+  background-image: url(https://mspoweruser.com/wp-content/uploads/2021/09/Redfall-130921.jpg) ;
+  background-size: cover;
+  width: 30%;
+  height: 25vh;
+  text-align: center;
+  border-radius: 15px;
 }
 .texte>h2 {
     margin-top: 75px;
@@ -71,8 +80,6 @@ header{
     background-color: rgba(123, 122, 122, 0.219);
     color: white;
 }
-
-
 
 
 
