@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-size: 20px;
 }
 
 header{
@@ -77,7 +78,12 @@ h1{
   font-size: 20.5px;
 }
 
-
+#positif{
+  color: green;
+}
+#negatif{
+  color: red;
+}
 
 
 
