@@ -2,7 +2,7 @@
 
 ## Arkane Studio    
 
-Arkane Studio (https://login.github.io/projet/)
+Arkane Studio (https://login.github.io/ArkaneStudio/index.html)
 
 ## Membres du groupe :
 
