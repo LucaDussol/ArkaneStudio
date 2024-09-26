@@ -1,107 +1,117 @@
 body{
-    margin: 0;
+  margin: 0;
 }
 
 header{
-    background-color: aliceblue;
-    padding:10px;
-    position: fixed;
-    width: 100%;
+  background-color: aliceblue;
+  padding:0px;
+  position: fixed;
+  width: 100%;
 }
 
 header div{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 header a{
-    font-size: 20px;
-    color: black;
-    outline: none;
-    text-decoration: none;
+  font-size: 20px;
+  color: black;
+  outline: none;
+  text-decoration: none;
 }
 
 #logo{
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #Navigation>a{
-    height: 50px;
-    width: 18%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  height: 50px;
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #Navigation a:hover{
-    background-color: antiquewhite;
+color: blue;
+font-size: 22px ;
 }
 
 #Pageactuelle{
-    font-size: 25px;
-    font-weight: bold;
+  font-size: 25px;
+  font-weight: bold;
 }
 
-#Pageactuelle{
-    font-size: large;
-    font-weight: bold;
-  }
+body {
+  margin: 0; 
+}
 
+.Page {
+  padding-top: 160px;
+  margin-left: 100px;
+  font-size: 20px;
+}
 
-  .Page {
-    padding-top: 160px;
-  }
+.container {
+  display: flex;
+  flex-direction: row; /* Disposition en ligne pour avoir le texte et les images côte à côte */
+  gap: 30px; /* Espace entre le texte et les images */
+}
 
+.text-container {
+  width: 60%; /* Zone de texte prenant 60% de la largeur */
+  padding: 30px; /* Ajout de padding pour l'espacement */
+  background-color: rgba(127, 127, 127, 0.1); /* Couleur d'arrière-plan */
+  border-radius: 10px; /* Coins arrondis */
+}
 
-.Image {
-  float: right;
+#texte2 {
+  margin-top: 20px;
+  width: 100%; /* Zone de texte prenant 100% de la largeur */
+  padding: 30px; /* Ajout de padding pour l'espacement */
+  background-color: rgba(127, 127, 127, 0.1); /* Couleur d'arrière-plan */
+  border-radius: 10px; /* Coins arrondis */
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column; /* Empiler les images */
+  width: 40%; /* Largeur des images */
+  gap: 10px; /* Espace entre les images */
+}
+
+.ptitimage {
+  display: flex;
+  flex-direction: row; /* Aligner les images */
+  width: 50%; /* Largeur des images */
+  gap: 10px; /* Espace entre les images */
+}
+
+.item-image {
+  width: 100%; /* Prendre toute la largeur disponible dans la colonne */
+  border-radius: 10px;
 }
 
 
+footer {
+  display: grid;
+  background-color: #515457;
+  grid-template-columns: 250px 120px 225px;
+  align-items: start;
+  justify-content: space-between;
 
+  color: aliceblue;
+  margin-top: 30px;
 
+  font-size: 20px;
+}
 
+footer > div {
+  padding-top: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-footer{
-    display: flex;
-    background-color: #515457;
-    grid-template-columns: 250px 120px 225px;
-    align-items: start;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex-direction: row;
-  
-    color: aliceblue;
-    margin-top: 30px;
-    
-    font-size: 20px;
-  }
-  
-  
-  footer>div{
-    padding-top: 10px;
-  }
-  
-  .Reseau{
-    margin-left: 15px;
-  }
-
-  @media (max-width: 650px){
-    footer{
-      iframe {
-        display: none;
-      }
-    }
-    
-  }
-
+.Reseau {
+  margin-left: 15px;
+}
