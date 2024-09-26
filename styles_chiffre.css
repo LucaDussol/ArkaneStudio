@@ -1,7 +1,13 @@
+body{
+  margin: 0;
+}
 
 header{
   background-color: aliceblue;
   padding:10px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
 }
 
 header div{
@@ -11,37 +17,45 @@ header div{
 }
 
 header a{
+  font-size: 20px;
   color: black;
   outline: none;
   text-decoration: none;
 }
 
+#logo{
+  margin-bottom: 10px;
+}
+
+#Navigation>a{
+  height: 50px;
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 #Navigation a:hover{
-  background-color: antiquewhite;
+  color: blue;
+  font-size: 22px ;
 }
 
 #Pageactuelle{
-  font-size: large;
+  font-size: 25px;
   font-weight: bold;
 }
-
-
-
-
-
-
-
-body{
-  margin: 0px; 
+h1{
+  text-align: center;
+  margin-top: 200px;
 }
-.Page{
-  margin-left: 100px;
-  font-size: 20px;
-}
+
+
+
+
+
 
 .container {
   display: flex;
-
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
@@ -56,9 +70,7 @@ body{
   border-radius: 10px;
 }
 
-#Slogan_Page{
-  text-align: center;
-}
+
 
 .item:hover{
   background-color: rgb(184, 184, 184);
@@ -71,11 +83,13 @@ body{
 
 
 footer{
-  display: grid;
+  display: flex;
   background-color: #515457;
   grid-template-columns: 250px 120px 225px;
   align-items: start;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
 
   color: aliceblue;
   margin-top: 30px;
@@ -90,4 +104,13 @@ footer>div{
 
 .Reseau{
   margin-left: 15px;
+}
+
+@media (max-width: 650px){
+  footer{
+    iframe {
+      display: none;
+    }
+  }
+  
 }
