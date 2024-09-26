@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: aliceblue;
+    padding:10px;
+    position: fixed;
+    width: 100%;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+header a{
+    font-size: 20px;
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
+
+#logo{
+    margin-bottom: 10px;
+}
+
+#Navigation>a{
+    height: 50px;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Navigation a:hover{
+    background-color: antiquewhite;
+}
+
+#Pageactuelle{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#Pageactuelle{
+    font-size: large;
+    font-weight: bold;
+  }
+
+
+  .Page {
+    padding-top: 160px;
+  }
+
+
+.Image {
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    background-color: #515457;
+    grid-template-columns: 250px 120px 225px;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+    color: aliceblue;
+    margin-top: 30px;
+    
+    font-size: 20px;
+  }
+  
+  
+  footer>div{
+    padding-top: 10px;
+  }
+  
+  .Reseau{
+    margin-left: 15px;
+  }
+
+  @media (max-width: 650px){
+    footer{
+      iframe {
+        display: none;
+      }
+    }
+    
+  }
