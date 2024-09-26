@@ -2,7 +2,7 @@
         <div id="copyright">
             <img src="Logo.png" alt="Logo" width="100" height="50">
             <br>
-            &copy; 2024 Mathias DUMAIN
+            &copy; 2024 Owen HETRU
         </div>
     
         <div>
@@ -14,9 +14,9 @@
             </iframe>
         </div>
         <div>
-            <a class="Reseau" href="https://www.facebook.com/ArkaneStudios/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="Facebook Arkane Studio" width="50"></a>
-            <a class="Reseau" href="https://www.facebook.com/ArkaneStudios/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Twitter-new-logo.jpg" alt="Facebook Arkane Studio" width="50"></a>
-            <a class="Reseau" href="https://www.linkedin.com/company/arkane-studios/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Facebook Arkane Studio" width="50"></a>
+            <a class="Reseau" href="LogoFacebook.png" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"  alt="Image Facebook" width="50"></a>
+            <a class="Reseau" href="LogoX.jpg" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Twitter-new-logo.jpg"  alt="Image X" width="50"></a>
+            <a class="Reseau" href="LogoLinkedin.png" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"  alt="Image Logo" width="50"></a>
         </div>
     </footer>
 
