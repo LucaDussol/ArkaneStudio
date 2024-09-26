@@ -1,30 +1,50 @@
 /* Header */
+body{
+  margin: 0;
+}
+
 header{
-    background-color: aliceblue;
-    padding:10px;
-  }
-  
-  header div{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
-  
-  header a{
-    color: black;
-    outline: none;
-    text-decoration: none;
-  }
-  
-  #Navigation a:hover{
-    background-color: antiquewhite;
-  }
-  
-  #Pageactuelle{
-    font-size: large;
-    font-weight: bold;
-  }
-  
+  background-color: aliceblue;
+  padding:10px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+header div{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+header a{
+  font-size: 20px;
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+
+#logo{
+  margin-bottom: 10px;
+}
+
+#Navigation>a{
+  height: 50px;
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#Navigation a:hover{
+color: blue;
+font-size: 22px ;
+}
+
+#Pageactuelle{
+  font-size: 25px;
+  font-weight: bold;
+}
 
 /* Body */ 
 
@@ -50,9 +70,11 @@ header{
 }
 
 #Article {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    
+    
 }
 
 #article1 {
@@ -73,6 +95,26 @@ header{
   border-radius: 15px;
   margin: 30px;
 }
+#article3 {
+  background-image: url(https://ds.static.rtbf.be/article/image/1920x1920/b/6/9/d092e9261e936c22a0fcded668406ea0-1673630571.jpg) ;
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 25vh;
+  text-align: center;
+  border-radius: 15px;
+  margin: 30px;
+}
+
+#article4 {
+  background-image: url(https://cdn2.unrealengine.com/arkane-austin-logo-ondark-rgb-2550x1650-a8d226d30ddc.jpg) ;
+  background-size: cover;
+  width: 40%;
+  height: 25vh;
+  text-align: center;
+  border-radius: 15px;
+  margin: 30px;
+}
 .texte>h2 {
     margin-top: 75px;
    
@@ -80,14 +122,18 @@ header{
 }
 .texte {
     backdrop-filter: blur(10px);
-    background-color: rgba(123, 122, 122, 0.219);
+    background-color: rgba(14, 13, 13, 0.311);
     color: white;
 }
 
 
 #Image>img{
   width: 10%;
-  height: 60vh;}
+  height: 60vh;
+}
+#Image{
+  z-index: 0;
+}
 
 
 #Contenu {
