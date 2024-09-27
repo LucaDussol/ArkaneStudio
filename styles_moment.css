@@ -64,9 +64,7 @@ font-size: 22px ;
     margin: 0;}
 
 #Contenu {
-    background-color: #bcbcc0;
-    width: 90vw;
-    margin: auto;
+    
 }
 
 #Article {
@@ -133,15 +131,18 @@ font-size: 22px ;
 }
 #Image{
   z-index: 0;
-  width: 50%;
+  width: 70%;
 }
 
 
 #Contenu {
+    background-color: #bcbcc0;
+    width: 90vw;
+    margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: 10px;}
+    justify-content: space-evenly;}
+    
 
 
  /* Footer */
