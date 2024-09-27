@@ -131,9 +131,8 @@ font-size: 22px ;
 }
 #Image{
   z-index: 0;
-  width: 70%;
+  width: 100%;
 }
-
 
 #Contenu {
     background-color: #bcbcc0;
