@@ -3,7 +3,7 @@ html{
 }
 
 section{
-    background-color: beige;
+    background-color: #B53A00;
 }
 
 body{
@@ -114,7 +114,7 @@ h1{
 
 footer{
     display: flex;
-    background-color: #515457;
+    background-color: #F1691B;
     grid-template-columns: 250px 120px 225px;
     align-items: start;
     justify-content: space-evenly;
