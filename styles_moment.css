@@ -79,7 +79,7 @@ font-size: 22px ;
     background-image: url(https://www.alwaysforkeyboard.com/wp-content/uploads/2023/12/marvels_blade_1.jpg) ;
     background-size: cover;
     width: 40%;
-    height: 25vh;
+    min-height: 25vh;
     text-align: center;
     border-radius: 15px;
     margin: 30px;
@@ -88,7 +88,7 @@ font-size: 22px ;
   background-image: url(https://mspoweruser.com/wp-content/uploads/2021/09/Redfall-130921.jpg) ;
   background-size: cover;
   width: 40%;
-  height: 25vh;
+  min-height: 25vh;
   text-align: center;
   border-radius: 15px;
   margin: 30px;
@@ -98,7 +98,7 @@ font-size: 22px ;
   background-size: cover;
   background-position: center;
   width: 40%;
-  height: 25vh;
+  min-height: 25vh;
   text-align: center;
   border-radius: 15px;
   margin: 30px;
@@ -108,7 +108,7 @@ font-size: 22px ;
   background-image: url(https://cdn2.unrealengine.com/arkane-austin-logo-ondark-rgb-2550x1650-a8d226d30ddc.jpg) ;
   background-size: cover;
   width: 40%;
-  height: 25vh;
+  min-height: 25vh;
   text-align: center;
   border-radius: 15px;
   margin: 30px;
@@ -123,6 +123,40 @@ font-size: 22px ;
     background-color: rgba(14, 13, 13, 0.311);
     color: white;
 }
+
+#dialog1 {
+    position: fixed;
+    z-index: 100;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);}
+
+.bouton {
+    background-color: #a1a5a171;
+    backdrop-filter: blur(5px);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+.bouton:hover {
+    background-color: #a1a5a1;
+    color: white;
+}
+
 
 
 #Image>img{
