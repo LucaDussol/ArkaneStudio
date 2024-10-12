@@ -165,7 +165,6 @@ footer{
 
   footer>div{
     padding-top: 10px;
-    border: 1px solid red;
   }
 
   #socialMedias{
@@ -176,9 +175,6 @@ footer{
     justify-content: space-between;
   }
 
-  .Reseau{
-    border: 1px solid red;
-  }
   
 
   @media (max-width: 650px){
