@@ -3,6 +3,10 @@ html{
     background: linear-gradient(#F1691B, white);
 }
 
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
 section{
     background-color: #F1691B;
 }
@@ -17,6 +21,8 @@ header{
     padding:10px;
     position: fixed;
     width: 100%;
+
+    font-family: 'Fjalla One', sans-serif;
 
     z-index: 10;
     top: 0;
@@ -85,6 +91,7 @@ h1{
 .contenu{
     width: 320px;
     justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
 }
 
 .image a{
@@ -94,7 +101,6 @@ h1{
 }
 
 #pages div{
-
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -113,6 +119,7 @@ h1{
 .titrePage{
     font-size: large;
     font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .contenu{
@@ -137,27 +144,42 @@ hr{
 }
 
 footer{
-    display: flex;
-    grid-template-columns: 250px 120px 225px;
-    align-items: start;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex-direction: row;
-  
+
     color: rgb(0, 0, 0);
     margin-top: 30px;
     
     font-size: 20px;
   }
-  
-  
+
+  #copyright{
+    font-family: 'Roboto', sans-serif;
+
+    display: grid;
+    width: 100%;
+    grid-template-columns: 300px 220px;
+    align-items: start;
+    justify-content: space-between;
+
+  }
+
+
   footer>div{
     padding-top: 10px;
+    border: 1px solid red;
+  }
+
+  #socialMedias{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 120px 120px 120px;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .Reseau{
+    border: 1px solid red;
   }
   
-  .Reseau{
-    margin-left: 15px;
-  }
 
   @media (max-width: 650px){
     footer{
