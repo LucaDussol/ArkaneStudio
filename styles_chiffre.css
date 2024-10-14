@@ -3,17 +3,40 @@ body{
   font-size: 20px;
 }
 
+/*---- ZONE HAUTE DE LA PAGE ----*/
+
+html{
+  font-family: sans-serif;
+  background: linear-gradient(#F1691B, white);
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+section{
+  background-color: #F1691B;
+}
+
+body{
+  margin: 0;
+}
+
 header{
-  background-color: aliceblue;
+  background-color: #ff823a;
   padding:10px;
   position: fixed;
   width: 100%;
-  top: 0px;
+
+  font-family: 'Fjalla One', sans-serif;
+
+  z-index: 10;
+  top: 0;
+
 }
 
 header div{
   display: flex;
-  justify-content: space-around;
   align-items: flex-start;
 }
 
@@ -22,10 +45,8 @@ header a{
   color: black;
   outline: none;
   text-decoration: none;
-}
+  text-align: center;
 
-#logo{
-  margin-bottom: 10px;
 }
 
 #Navigation>a{
@@ -34,26 +55,28 @@ header a{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: #B53a00;
+
+  border-radius: 0% 35%;
+}
+
+#Navigation{
+  justify-content: space-around;
+  
 }
 
 #Navigation a:hover{
-  color: blue;
-  font-size: 22px ;
+  color: #74E6C7;
+  font-size: 22px;
 }
+
 
 #Pageactuelle{
   font-size: 25px;
   font-weight: bold;
 }
-h1{
-  text-align: center;
-  margin-top: 200px;
-}
 
-
-
-
-
+/*---- CONTENU DE PAGE ----*/
 
 .container {
   display: flex;
@@ -71,22 +94,24 @@ h1{
   border-radius: 10px;
 }
 
-
-
-.item:hover{
-  background-color: rgb(184, 184, 184);
-  font-size: 20.5px;
-}
-
-#positif{
+.positif{
   color: green;
 }
-#negatif{
+.negatif{
   color: red;
 }
 
+.graph{
+  display:none;
+}
+/*---- HOVER ----*/
+
+.normal :hover{
+  display: none;
+}
 
 
+/*---- ZONE BASSE DE LA PAGE ----*/
 
 footer{
   display: flex;
@@ -111,6 +136,8 @@ footer>div{
 .Reseau{
   margin-left: 15px;
 }
+
+/*---- MEDIA ----*/
 
 @media (max-width: 650px){
   footer{
