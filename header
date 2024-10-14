@@ -1,6 +1,6 @@
         <header id="Bandeau_haut">
             <div id="logo">
-                <img src="Logo.png" alt="Logo" width="300" height="150"> 
+                <img src="Logo.png" alt="Logo" width="300" height="180"> 
             </div>
            
             <div id="Navigation">
