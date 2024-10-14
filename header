@@ -20,15 +20,20 @@ body{
 }
 
 header{
-    background-color: aliceblue;
+    background-color: #ff823a;
     padding:10px;
     position: fixed;
     width: 100%;
+
+    font-family: 'Fjalla One', sans-serif;
+
+    z-index: 10;
+    top: 0;
+
 }
 
 header div{
     display: flex;
-    justify-content: space-around;
     align-items: flex-start;
 }
 
@@ -37,10 +42,8 @@ header a{
     color: black;
     outline: none;
     text-decoration: none;
-}
+    text-align: center;
 
-#logo{
-    margin-bottom: 10px;
 }
 
 #Navigation>a{
@@ -49,12 +52,21 @@ header a{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #B53a00;
+
+    border-radius: 0% 35%;
+}
+
+#Navigation{
+    justify-content: space-around;
+    
 }
 
 #Navigation a:hover{
-  color: blue;
-  font-size: 22px ;
+    color: #74E6C7;
+    font-size: 22px;
 }
+
 
 #Pageactuelle{
     font-size: 25px;
