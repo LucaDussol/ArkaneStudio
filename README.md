@@ -14,4 +14,13 @@ Etudiant 5 : [HETRU Owen](ohetru@edu.univ-fcomte.fr?subject=SAE_1_05_06)<br>
 # Présentation du projet
 
 Ce projet est un projet collaboratif de première année de BUT INFORMATIQUE. Nous devons présenter une entreprise
-et son environnement économique au travers d'un site web que nous aurons codé de bout en bout. 
+et son environnement économique au travers d'un site web que nous aurons codé de bout en bout.
+Le travail a été réparti comme suit :
+- L'accueil a été codé par Oscar DUFOSSEZ
+- La page de présentation de l'entreprise a été codée par Owen HETRU
+- La page sur les chiffres a été codée par Luca DUSSOL
+- La page de l'environnement économique a été codée par Eloi DUPASQUIER
+- La page des actualités du studio a été codée par Mathias DUMAIN
+
+La palette de couleur générale est inspirée de la charte colorée du jeu à succès DEATLOOP. Nous avons opté pour un dégradé afin de ne pas surcharger 
+la page et garder la page aérée et lisible. 
