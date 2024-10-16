@@ -1,16 +1,16 @@
-        <header id="Bandeau_haut">
-            <div id="logo">
-                <img src="Logo.png" alt="Logo" width="300" height="180"> 
-            </div>
-           
-            <div id="Navigation">
-                    <a id="Pageactuelle" href="#">Accueil</a>
-                    <a href="#">Présentation de l'entreprise</a>
-                    <a href="#">En ce moment</a>
-                    <a href="#">Economie</a>
-                    <a href="#">Chiffres</a>
-            </div>
-        </header>
+     <header id="Bandeau_haut">
+        <div id="logo">
+            <img src="Logo.png" alt="Logo" width="300" height="180"> 
+        </div>
+       
+        <div id="Navigation">
+                <a id="Pageactuelle" href="#">Accueil</a>
+                <a href="PagePresentation">Présentation de l'entreprise</a>
+                <a href="PageEnCeMoment">En ce moment</a>
+                <a href="PageEconomie">Economie</a>
+                <a href="PageChiffre">Chiffres</a>
+        </div>
+    </header>
 
 ----------------------------------------------
   STYLE
