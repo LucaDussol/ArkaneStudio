@@ -1,7 +1,3 @@
-body{
-  margin: 0;
-}
-
 html{
   font-family: sans-serif;
   background: linear-gradient(#F1691B, white);
@@ -12,14 +8,27 @@ h1 {
 }
 
 h2 {
-  margin-left: 40px;
   font-family: 'Fjalla One', sans-serif;
+  margin-left: 30px;
+}
+
+p {
+  margin-left: 65px;
+  font-family: 'roboto', sans-serif;
+}
+
+ul {
+  margin-left: 40px;
+  font-family: 'roboto', sans-serif;
 }
 
 section{
   background-color: #F1691B;
 }
 
+body{
+  margin: 0;
+}
 
 header{
   background-color: #ff823a;
@@ -92,7 +101,7 @@ header a{
   width: 60%; 
   padding: 30px; 
   background-color: rgba(127, 127, 127, 0.1); 
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 #texte2 {
@@ -119,7 +128,7 @@ header a{
 .ptitimage {
   display: flex;
   flex-direction: row; 
-  width: 50%; 
+  width: 100%; 
   gap: 10px; 
 }
 
