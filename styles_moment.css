@@ -275,10 +275,7 @@ header a{
 
 
 
-#Image>img{
-  width: 100%;
-  height: 60vh;
-}
+
 #Image{
   z-index: 0;
   width: 100%;
@@ -294,7 +291,7 @@ header a{
 
 
  /* Footer */
- 
+
 hr{
   border: none;
   border-top: 3px double #333;

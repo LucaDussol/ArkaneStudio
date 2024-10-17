@@ -26,3 +26,4 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('dialog4').close();
     });
 });
+
