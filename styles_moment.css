@@ -73,6 +73,20 @@ header a{
 }
 /* Body */ 
 
+h1{
+  font-family: 'Fjalla One', sans-serif;
+}
+h2{
+  font-family: 'Fjalla One', sans-serif;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+
 #Titre {
     background: linear-gradient(to top, #74E6C7, #FAD254);
     margin-top: 50px;
