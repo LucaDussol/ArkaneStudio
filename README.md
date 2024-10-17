@@ -26,6 +26,21 @@ La palette de couleur générale est inspirée de la charte colorée du jeu à s
 la page et garder la page aérée et lisible.
 
 ## Validations des pages
+# Page accueil
+![écran qui vérifie si le document est valide sur W3C](doc/Validation_W3C_index.png)
 
+# Page Présentation
+![écran qui vérifie si le document est valide sur W3C](doc/W3CPresentation.png)
+
+# Page En ce moment
+![écran qui vérifie si le document est valide sur W3C](doc/W3CMoment.png)
 
 ## Ecologie des pages
+# Page Accueil
+![écran qui vérifie si le document est léger sur ECOGRADER](doc/Eco_index.png)
+
+# Page Présentation
+![écran qui vérifie si le document est léger sur ECOGRADER](doc/ecoPresentation.png)
+
+# Page En ce moment
+![écran qui vérifie si le document est léger sur ECOGRADER](doc/EcoloMoment.png)
