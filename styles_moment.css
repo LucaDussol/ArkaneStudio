@@ -73,7 +73,8 @@ header a{
 /* Body */ 
 
 #Titre {
-    background-color: #868687;
+    background-color: #74E6C7;
+    margin-top: 50px;
 }
 
 #Titre h1 {
@@ -87,14 +88,19 @@ header a{
     padding: 10px;
     margin: 0;}
 
+
 #Contenu {
-    
+  padding-top: 50px;
+  background-color: #33333300;
 }
 
 #Article {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: #74E6C7;
+  border-radius: 25px;
+
     
     
 }
@@ -151,19 +157,105 @@ header a{
 #dialog1 {
     position: fixed;
     z-index: 100;
-    padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 90vw;
+    height: 85vh;
     overflow: auto;
-    background-color: rgb(0, 0, 0);}
+    background-color: #fad354f8;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #fad354f3, #ff823af3);
+  }
+
+  #dialog2 {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 90vw;
+    height: 85vh;
+    overflow: auto;
+    background-color: #fad354f8;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #fad354f3, #ff823af3);
+  }
+  #dialog3 {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 90vw;
+    height: 85vh;
+    overflow: auto;
+    background-color: #fad354f8;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #fad354f3, #ff823af3);
+  }
+  #dialog4 {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 90vw;
+    height: 85vh;
+    overflow: auto;
+    background-color: #fad354f8;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #fad354f3, #ff823af3);
+  }
+
+#closeDialog1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ff823a00;
+    border : none;
+}
+
+#closeDialog2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ff823a00;
+  border : none;
+}
+#closeDialog3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ff823a00;
+  border : none;
+}
+
+#closeDialog4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ff823a00;
+  border : none;
+}
 
 .bouton {
-    background-color: #a1a5a171;
+    background-color: #b53900ee;
     backdrop-filter: blur(5px);
     border: none;
-    color: white;
+    color: #FAD254;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -193,7 +285,6 @@ header a{
 }
 
 #Contenu {
-    background-color: #bcbcc0;
     width: 90vw;
     margin: auto;
     display: flex;
