@@ -1,19 +1,37 @@
 /* Header */
+
+html{
+  font-family: sans-serif;
+  background: linear-gradient(#F1691B, white);
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+section{
+  background-color: #F1691B;
+}
+
 body{
   margin: 0;
 }
 
 header{
-  background-color: aliceblue;
+  background-color: #ff823a;
   padding:10px;
   position: fixed;
   width: 100%;
-  z-index: 100;
+
+  font-family: 'Fjalla One', sans-serif;
+
+  z-index: 10;
+  top: 0;
+
 }
 
 header div{
   display: flex;
-  justify-content: space-around;
   align-items: flex-start;
 }
 
@@ -22,10 +40,8 @@ header a{
   color: black;
   outline: none;
   text-decoration: none;
-}
+  text-align: center;
 
-#logo{
-  margin-bottom: 10px;
 }
 
 #Navigation>a{
@@ -34,18 +50,26 @@ header a{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: #B53a00;
+
+  border-radius: 0% 35%;
+}
+
+#Navigation{
+  justify-content: space-around;
+  
 }
 
 #Navigation a:hover{
-color: blue;
-font-size: 22px ;
+  color: #74E6C7;
+  font-size: 22px;
 }
+
 
 #Pageactuelle{
   font-size: 25px;
   font-weight: bold;
 }
-
 /* Body */ 
 
 #Titre {
@@ -180,36 +204,53 @@ font-size: 22px ;
 
  /* Footer */
  
-footer{
-    display: flex;
-    background-color: #515457;
-    grid-template-columns: 250px 120px 225px;
-    align-items: start;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex-direction: row;
-  
-    color: aliceblue;
-    margin-top: 30px;
-    
-    font-size: 20px;
-  }
-  
-  
-  footer>div{
-    padding-top: 10px;
-  }
-  
-  .Reseau{
-    margin-left: 15px;
-  }
+hr{
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  height: 5px;
+}
 
-  @media (max-width: 650px){
-    footer{
-      iframe {
-        display: none;
-      }
+footer{
+
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
+  
+  font-size: 20px;
+}
+
+#copyright{
+  font-family: 'Roboto', sans-serif;
+
+  display: grid;
+  width: 100%;
+  grid-template-columns: 300px 220px;
+  align-items: start;
+  justify-content: space-between;
+
+}
+
+
+footer>div{
+  padding-top: 10px;
+}
+
+#socialMedias{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 120px 120px 120px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+
+
+@media (max-width: 650px){
+  footer{
+    iframe {
+      display: none;
     }
-    
   }
   
+}
