@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>économie et écologie Arkane Studios</title>
-    <link rel="stylesheet" href="stylesEconomie.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesEconomie.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <title>économie et écologie</title>
+    </head>
 <body>
-    <header>
+    <header id="Bandeau_haut">
         <div id="logo">
-            <img src="Logo.png" alt="Logo" width="300" height="80"> 
+            <img src="Logo.png" alt="Logo" width="300" height="180"> 
         </div>
        
         <div id="Navigation">
-            <a href="index.html">Accueil</a>
-            <a href="PagePresentation.html">Présentation de l'entreprise</a>
-            <a href="PageEnCeMoment.html">En ce moment</a>
-            <a id="Pageactuelle" href="PageEconomie.html">Economie</a>
-            <a href="PageChiffre.html">Chiffres</a>
+                <a href="Index.html">Accueil</a>
+                <a href="PagePresentation">Présentation de l'entreprise</a>
+                <a href="PageEnCeMoment">En ce moment</a>
+                <a id="Pageactuelle" href="PageEconomie">Economie</a>
+                <a href="PageChiffre">Chiffres</a>
         </div>
     </header>
     <section class="page">
         <section class="economie" >
             <h1>ECONOMIE</h1>
             <div class="disclaimer">
-                <span>ATTENTION : il est important de noter que toutes les informations présentent sur cette page n'ont pas ete mises a jour depuis 2022.</span>
+                <span>ATTENTION : il est important de noter que toutes les informations présentent sur cette page n'ont pas ete mises a jour depuis 2023.</span>
             </div>
+            <div class="contextéco">
+                <span>fnjkesnbfk</span>
+            </div>
+            <div></div>
             <div class="div_container">
                 <div class="eltg">
                     <div class="texte1">
@@ -43,7 +51,7 @@
                 </div>
                 <div class="eltd">
                     <div class="graph" id="g1">
-                        <img src="graph_chiffre_affaire.jpg" alt="graphique du chiffre d'affaire">
+                        <img src="CA.png" alt="graphique du chiffre d'affaire">
                     </div>
                     <div class="texte3">
                         <span>Ce graphe permet de mesurer l'évolution du chiffre d'affaires et de la rentabilité de l'entreprise.
@@ -70,26 +78,43 @@
         </section>
 
     </section>
+    <hr>
+
     <footer>
-        <div id="copyright">
-            <img src="Logo.png" alt="Logo" width="100" height="50">
-            <br>
-            &copy; 2024 Eloi DUPASQUIER
-        </div>
+            <div id="copyright">
+                
+                <div>
+                    <img src="Logo.png" alt="Logo" width="100" height="80">
+                    <br>
+                    &copy; 2024 Eloi DUPASQUIER
+                </div>
+                
+                <div>
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.704892145824!2d4.812532076878692!3d45.73701277107958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea6f1e22512d%3A0xbeaaa0635d51afef!2sArkane%20Lyon!5e0!3m2!1sfr!2sfr!4v1726489247770!5m2!1sfr!2sfr" 
+                    width="200" height="150" style="border:0;" 
+                    allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                </div>      
+            </div>
     
-        <div>
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.704892145824!2d4.812532076878692!3d45.73701277107958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea6f1e22512d%3A0xbeaaa0635d51afef!2sArkane%20Lyon!5e0!3m2!1sfr!2sfr!4v1726489247770!5m2!1sfr!2sfr" 
-                width="200" height="150" style="border:0;" 
-                allowfullscreen="" loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-        <div>
-            <a class="Reseau" href="https://www.facebook.com/ArkaneStudios/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" width="50px"></a>
-            <a class="Reseau" href="https://x.com/arkanestudios" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Twitter-new-logo.jpg" width="50px"></a>
-            <a class="Reseau" href="https://www.linkedin.com/company/28338/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="50px"></a>
-        </div>
+            <br>
+    
+            <div id="socialMedias">
+                <div>
+                    <a class="Reseau" href="https://www.facebook.com/ArkaneStudios/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="Facebook d'Arkane Studios" width="50"></a>
+                </div>
+    
+                <div>
+                    <a class="Reseau" href="https://www.facebook.com/ArkaneStudios/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Twitter-new-logo.jpg"  alt="Twitter d'Arkane Studios" width="50"></a>
+                </div>
+                
+                <div>
+                    <a class="Reseau" href="https://www.linkedin.com/company/arkane-studios/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Linkedin d'Arkane Studios" width="50"></a>
+                </div>
+    
+            </div> 
     </footer>
     
 </body>

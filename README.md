@@ -23,4 +23,9 @@ Le travail a été réparti comme suit :
 - La page des actualités du studio a été codée par Mathias DUMAIN
 
 La palette de couleur générale est inspirée de la charte colorée du jeu à succès DEATLOOP. Nous avons opté pour un dégradé afin de ne pas surcharger 
-la page et garder la page aérée et lisible. 
+la page et garder la page aérée et lisible.
+
+## Validations des pages
+
+
+## Ecologie des pages
