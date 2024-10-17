@@ -7,8 +7,16 @@ h1 {
   font-family: 'Fjalla One', sans-serif;
 }
 
+h2{
+  font-family: 'Fjalla One', sans-serif;
+}
+
 body{
   margin: 0;
+}
+
+span{
+  font-family: 'roboto', sans-serif;
 }
 
 header{
@@ -133,7 +141,7 @@ footer>div{
 }
 
 .contextéco{
-  background-color: #74E6C7;
+  background: linear-gradient(#74E6C7, #fad254);
   padding: 50px;
   margin: 50px;
   border-radius: 50px;
@@ -158,6 +166,11 @@ section.economie{
   align-content: space-around;
 }
 
+.ecologie{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
   .div_container{
     display: flex;
     justify-content: space-around;
@@ -165,9 +178,10 @@ section.economie{
   }
 
   .eltg{
-    width: 70%;
+    width: 75%;
     padding: 5px;
     border-radius: 50px;
+    margin-right: 15px;
   }
 
 #g3{
@@ -179,7 +193,7 @@ section.economie{
   .texte1{
     display: flex;
     align-items: center;
-    background-color: #74E6C7;
+    background: linear-gradient(#74E6C7, #fad254);
     border-radius: 50px;
     margin-bottom: 50px;
     flex-direction: row-reverse;
@@ -239,7 +253,7 @@ section.economie{
   .ensemble1{
     display: flex;
     width: 100%;
-    background-color: #B53a00;
+    background-color: rgba(127,127,127,0.3);
     justify-content: space-between;
     flex-direction: column;
     padding: 5px;
@@ -256,7 +270,7 @@ section.economie{
   .ensemble2{
     display: flex;
     margin-top: 10px;
-    background-color: #B53a00;
+    background-color: rgba(127,127,127,0.3);
     border-radius: 50px;
     padding: 5px;
     flex-direction: column;
@@ -264,15 +278,20 @@ section.economie{
 
   .ensemble3{
     display: flex;
+    margin-top: 15px;
   }
 
   .texte5{
-    background-color: #74E6C7;
+    background: linear-gradient(#74E6C7, #fad254);
     border-radius: 50px;
-    padding: 20px;
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
   }
 
-  
+
 
   .ensemble12{
     display: flex;
@@ -280,7 +299,7 @@ section.economie{
 
   .texte4{
     display: flex;
-    background-color: #74E6C7;
+    background: linear-gradient(#74E6C7, #fad254);
     border-radius: 50px;
     padding: 20px;
     margin-left: 15px;
@@ -294,7 +313,7 @@ section.economie{
   .texte2{
     display: flex;
     align-items: center;
-    background-color: #74E6C7;
+    background: linear-gradient(#74E6C7, #fad254);
     border-radius: 50px;
     min-height: 200px;
     width: 75%;
@@ -310,7 +329,7 @@ section.economie{
   .texte3{
     display: flex;
     align-items: center;
-    background-color: #74E6C7;
+    background: linear-gradient(#74E6C7, #fad254);
     border-radius: 50px;
     width: 100%;
     flex-direction: column;
@@ -331,7 +350,7 @@ section.economie{
   }
 
   .eltd{
-    background-color: #B53a00;
+    background-color: rgba(127,127,127,0.3);
     border-radius: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -339,6 +358,7 @@ section.economie{
     padding-right: 10px;
     margin-top: 50px;
     width: 25%;
+
   }
 
   .texte_ecolo{
@@ -361,3 +381,113 @@ section.economie{
   .texte_ecolo>span{
     color: #000000;
   }
+
+
+  #agrandi{
+    height:250px ;
+    border: solid, 5px;
+    border-radius: 50px;
+    border-color: #fad254;
+  }
+
+  #agrandi:target{
+    height: 500px;
+    display: block;
+  }
+
+  #retreci:target{
+    height:250px ;
+    border: solid, 5px;
+    border-radius: 50px;
+    border-color: #fad254;
+  }
+
+  .croix{
+    position: absolute;
+    display: flex;
+  }
+
+  #agrandi1{
+    height:250px ;
+    border: solid, 5px;
+    border-radius: 50px;
+    border-color: #fad254;
+  }
+
+  #agrandi1:target{
+    height: 500px;
+    display: block;
+  }
+
+  #retreci1:target{
+    height:250px ;
+    border: solid, 5px;
+    border-radius: 50px;
+    border-color: #fad254;
+  }
+
+  #agrandi2{
+    height:250px ;
+    border: solid, 5px;
+    border-radius: 50px;
+    border-color: #fad254;
+  }
+
+  #agrandi2:target{
+    height: 500px;
+    display: block;
+  }
+
+  #retreci2:target{
+    height:250px ;
+    border: solid, 5px;
+    border-radius: 50px;
+    border-color: #fad254;
+  }
+
+  #agrandi3{
+    height:250px ;
+    border: solid, 5px;
+    border-radius: 50px;
+    border-color: #fad254;
+  }
+
+  #agrandi3:target{
+    height: 500px;
+    display: block;
+  }
+
+  #retreci3:target{
+    height:250px ;
+    border: solid, 5px;
+    border-radius: 50px;
+    border-color: #fad254;
+  }
+
+  #agrandi4{
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    height:250px ;
+    border: solid, 5px;
+    border-radius: 50px;
+    border-color: #fad254;
+    width: 100%;
+  }
+
+  #agrandi4:target{
+    height:500px;
+    width: 750px;
+    display: block;
+  }
+
+  #retreci4:target{
+    width: 250px; 
+    border: solid, 5px;
+    border-radius: 50px;
+    border-color: #fad254;
+  }
+
+
+
