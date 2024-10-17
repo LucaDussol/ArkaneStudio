@@ -33,7 +33,12 @@ la page et garder la page aérée et lisible.
 ![écran qui vérifie si le document est valide sur W3C](doc/W3CPresentation.png)
 
 ## Page En ce moment
+[Lien](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadussol.github.io%2FArkaneStudio%2FPageEnCeMoment.html)
 ![écran qui vérifie si le document est valide sur W3C](doc/W3CMoment.png)
+
+## Page Chiffres
+
+## Page Economie
 
 # Ecologie des pages
 ## Page Accueil
@@ -41,8 +46,13 @@ la page et garder la page aérée et lisible.
 ![écran qui vérifie si le document est léger sur ECOGRADER](doc/Eco_index.png)
 
 ## Page Présentation
+[Lien](https://ecograder.com/report/rf7WlhITihUK6aPwwV77uSq2)
 ![écran qui vérifie si le document est léger sur ECOGRADER](doc/ecoPresentation.png)
 
 ## Page En ce moment
 [Lien](https://www.websitecarbon.com/website/lucadussol-github-io-arkanestudio-pageencemoment-html/)
 ![écran qui vérifie si le document est léger sur ECOGRADER](doc/EcoloMoment.png)
+
+## Page Chiffres
+
+## Page Economie
