@@ -128,7 +128,7 @@ header a{
 .ptitimage {
   display: flex;
   flex-direction: row; 
-  width: 100%; 
+  width: 740px;
   gap: 10px; 
 }
 
