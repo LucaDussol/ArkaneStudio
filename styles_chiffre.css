@@ -1,6 +1,7 @@
 body{
   margin: 0;
   font-size: 20px;
+  color: black;
 }
 
 /*---- ZONE HAUTE DE LA PAGE ----*/
@@ -86,11 +87,13 @@ header a{
 
   flex-wrap: wrap;
   gap: 100px;
+
+  margin-top: 200px;
 }
 
 .item{
   padding: 30px;
-  background-color: rgba(127, 127, 127, 0.3);
+  background-color: #74E6C7;
   border-radius: 10px;
 }
 
@@ -101,31 +104,108 @@ header a{
   color: red;
 }
 
-.graph{
-  display:none;
+a {
+  text-decoration: none;
+  color: black;
 }
+
+
 /*---- HOVER ----*/
 
-.normal :hover{
+.container :hover{
+  background-color: #5dbaa1;
+}
+
+
+/*--Appartion de graphique --*/
+
+
+#c1 {
   display: none;
 }
 
+#c1:target {
+  display: flex;
+}
+
+#c2 {
+  display: none;
+}
+
+#c2:target {
+  display: flex;
+}
+
+#c3 {
+  display: none;
+}
+
+#c3:target {
+  display: flex;
+}
+
+#c4 {
+  display: none;
+}
+
+#c4:target {
+  display: flex;
+}
+
+#c5 {
+  display: none;
+}
+
+#c5:target {
+  display: flex;
+}
+
+#c6 {
+  display: none;
+}
+
+#c6:target {
+  display: flex;
+}
+
+#c7 {
+  display: none;
+}
+
+#c7:target {
+  display: flex;
+}
+
+
+/*---- BARRE ENTRE CONTENU ET BAS DE PAGE ----*/
+
+hr{
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  height: 5px;
+}
 
 /*---- ZONE BASSE DE LA PAGE ----*/
 
 footer{
-  display: flex;
-  background-color: #515457;
-  grid-template-columns: 250px 120px 225px;
-  align-items: start;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  flex-direction: row;
 
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   margin-top: 30px;
   
   font-size: 20px;
+}
+
+#copyright{
+  font-family: 'Roboto', sans-serif;
+
+  display: grid;
+  width: 100%;
+  grid-template-columns: 300px 220px;
+  align-items: start;
+  justify-content: space-between;
+
 }
 
 
@@ -133,11 +213,15 @@ footer>div{
   padding-top: 10px;
 }
 
-.Reseau{
-  margin-left: 15px;
+#socialMedias{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 120px 120px 120px;
+  align-items: start;
+  justify-content: space-between;
 }
 
-/*---- MEDIA ----*/
+
 
 @media (max-width: 650px){
   footer{
