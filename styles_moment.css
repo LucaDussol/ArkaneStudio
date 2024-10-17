@@ -106,7 +106,7 @@ header a{
 }
 
 #article1 {
-    background-image: url(https://www.alwaysforkeyboard.com/wp-content/uploads/2023/12/marvels_blade_1.jpg) ;
+    background-image: url(article1.jpeg) ;
     background-size: cover;
     width: 40%;
     min-height: 25vh;
@@ -115,7 +115,7 @@ header a{
     margin: 30px;
 }
 #article2 {
-  background-image: url(https://mspoweruser.com/wp-content/uploads/2021/09/Redfall-130921.jpg) ;
+  background-image: url(article2.webp) ;
   background-size: cover;
   width: 40%;
   min-height: 25vh;
@@ -124,7 +124,7 @@ header a{
   margin: 30px;
 }
 #article3 {
-  background-image: url(https://ds.static.rtbf.be/article/image/1920x1920/b/6/9/d092e9261e936c22a0fcded668406ea0-1673630571.jpg) ;
+  background-image: url(article3.jpg) ;
   background-size: cover;
   background-position: center;
   width: 40%;
@@ -135,7 +135,7 @@ header a{
 }
 
 #article4 {
-  background-image: url(https://cdn2.unrealengine.com/arkane-austin-logo-ondark-rgb-2550x1650-a8d226d30ddc.jpg) ;
+  background-image: url(article4.jpg) ;
   background-size: cover;
   width: 40%;
   min-height: 25vh;
@@ -288,6 +288,32 @@ header a{
     flex-direction: row;
     justify-content: space-evenly;}
     
+
+#contient>a>img {
+    justify-content: space-between;
+    border-radius: 15px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+#contient {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#Feed>h1 {
+    text-align: center;
+    color: #66412B;
+    margin: 40px;
+}
+#Feed {
+    background-color: #74e6c800;
+    border-radius: 25px;
+    margin: 30px;
+    padding: 10px; 
+  }
 
 
  /* Footer */
