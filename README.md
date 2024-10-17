@@ -52,7 +52,7 @@ la page et garder la page aérée et lisible.
 
 ## Page Présentation
 [Lien](https://ecograder.com/report/rf7WlhITihUK6aPwwV77uSq2)
-![écran qui vérifie si le document est léger sur ECOGRADER](doc/ecoPresentation.png)
+![écran qui vérifie si le document est léger sur ECOGRADER](doc/EcoPresentation.png)
 
 ## Page En ce moment
 [Lien](https://www.websitecarbon.com/website/lucadussol-github-io-arkanestudio-pageencemoment-html/)
