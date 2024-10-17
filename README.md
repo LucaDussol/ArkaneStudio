@@ -44,6 +44,7 @@ la page et garder la page aérée et lisible.
 ![écran qui vérifie si le document est valide sur W3C](doc/W3C_Page_Chiffre.png)
 
 ## Page Economie
+![écran qui vérifie si le document est valide sur W3C](doc/W3C_Economie.png)
 
 # Ecologie des pages
 ## Page Accueil
