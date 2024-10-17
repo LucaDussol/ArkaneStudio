@@ -59,7 +59,7 @@ la page et garder la page aérée et lisible.
 ![écran qui vérifie si le document est léger sur ECOGRADER](doc/EcoloMoment.png)
 
 ## Page Chiffres
-[Lien]
+[Lien](https://ecograder.com/report/OhjHjsSwBq6WxKB4bDS9nLym)
 ![écran qui vérifie si le document est léger sur ECOGRADER](doc/Ecologie_Page_Chiffre.png)
 
 ## Page Economie
