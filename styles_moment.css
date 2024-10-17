@@ -73,7 +73,7 @@ header a{
 /* Body */ 
 
 #Titre {
-    background-color: #74E6C7;
+    background: linear-gradient(to top, #74E6C7, #FAD254);
     margin-top: 50px;
 }
 
@@ -98,7 +98,8 @@ header a{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #74E6C7;
+  background: linear-gradient(to bottom, #74E6C7, #FAD254);
+
   border-radius: 25px;
 
     
