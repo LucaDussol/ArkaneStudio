@@ -64,3 +64,4 @@ la page et garder la page aérée et lisible.
 ![écran qui vérifie si le document est léger sur ECOGRADER](doc/Ecologie_Page_Chiffre.png)
 
 ## Page Economie
+![écran qui vérifie si le document est valide sur W3C](doc/EcoEconomie.png)
