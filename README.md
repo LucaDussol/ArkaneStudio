@@ -27,9 +27,11 @@ la page et garder la page aérée et lisible.
 
 # Validations des pages
 ## Page accueil
+[Lien](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadussol.github.io%2FArkaneStudio%2F)
 ![écran qui vérifie si le document est valide sur W3C](doc/Validation_W3C_index.png)
 
 ## Page Présentation
+[Lien](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadussol.github.io%2FArkaneStudio%2FPagePresentation)
 ![écran qui vérifie si le document est valide sur W3C](doc/W3CPresentation.png)
 
 ## Page En ce moment
@@ -37,6 +39,8 @@ la page et garder la page aérée et lisible.
 ![écran qui vérifie si le document est valide sur W3C](doc/W3CMoment.png)
 
 ## Page Chiffres
+[Lien](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadussol.github.io%2FArkaneStudio%2FPageChiffre)
+![écran qui vérifie si le document est valide sur W3C](doc/W3C_Page_Chiffre.png)
 
 ## Page Economie
 
