@@ -44,6 +44,7 @@ la page et garder la page aérée et lisible.
 ![écran qui vérifie si le document est valide sur W3C](doc/W3C_Page_Chiffre.png)
 
 ## Page Economie
+[Lien](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadussol.github.io%2FArkaneStudio%2FPageEconomie)
 ![écran qui vérifie si le document est valide sur W3C](doc/W3C_Economie.png)
 
 # Ecologie des pages
