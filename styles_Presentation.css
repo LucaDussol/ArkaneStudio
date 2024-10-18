@@ -127,9 +127,10 @@ header a{
 
 .ptitimage {
   display: flex;
-  flex-direction: row; 
-  width: 50%;
-  gap: 10px; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 4%; 
 }
 
 
@@ -137,6 +138,10 @@ header a{
 .item-image {
   width: 100%; 
   border-radius: 10px;
+}
+
+.ptitimage>img{
+  width: 48%; 
 }
 
 
